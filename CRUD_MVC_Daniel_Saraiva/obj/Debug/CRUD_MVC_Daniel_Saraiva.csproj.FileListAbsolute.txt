@@ -1,0 +1,37 @@
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva\CRUD_MVC_Daniel_Saraiva\bin\Debug\CRUD_MVC_Daniel_Saraiva.exe.config
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva\CRUD_MVC_Daniel_Saraiva\bin\Debug\CRUD_MVC_Daniel_Saraiva.exe
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva\CRUD_MVC_Daniel_Saraiva\bin\Debug\CRUD_MVC_Daniel_Saraiva.pdb
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.csproj.AssemblyReference.cache
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.csproj.SuggestedBindingRedirects.cache
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.Properties.Resources.resources
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.csproj.GenerateResource.cache
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.csproj.CoreCompileInputs.cache
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.exe
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.pdb
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.FormLogin.resources
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva\CRUD_MVC_Daniel_Saraiva\bin\Debug\MySql.Data.dll
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva\CRUD_MVC_Daniel_Saraiva\bin\Debug\MySQLConnection.dll
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.csproj.CopyComplete
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.UI.FormMenu.resources
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.UI.FormCadastroUsuario.resources
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.UI.FormListarUsuarios.resources
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva - Upgrade\CRUD_MVC_Daniel_Saraiva\bin\Debug\CRUD_MVC_Daniel_Saraiva.exe.config
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva - Upgrade\CRUD_MVC_Daniel_Saraiva\bin\Debug\CRUD_MVC_Daniel_Saraiva.exe
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva - Upgrade\CRUD_MVC_Daniel_Saraiva\bin\Debug\CRUD_MVC_Daniel_Saraiva.pdb
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva - Upgrade\CRUD_MVC_Daniel_Saraiva\bin\Debug\MySql.Data.dll
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva - Upgrade\CRUD_MVC_Daniel_Saraiva\bin\Debug\MySQLConnection.dll
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva - Upgrade\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.csproj.AssemblyReference.cache
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva - Upgrade\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.csproj.SuggestedBindingRedirects.cache
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva - Upgrade\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.UI.FormCadastroUsuario.resources
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva - Upgrade\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.UI.FormListarUsuarios.resources
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva - Upgrade\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.FormLogin.resources
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva - Upgrade\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.Properties.Resources.resources
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva - Upgrade\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.UI.FormMenu.resources
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva - Upgrade\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.csproj.GenerateResource.cache
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva - Upgrade\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.csproj.CoreCompileInputs.cache
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva - Upgrade\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.csproj.CopyComplete
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva - Upgrade\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.exe
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva - Upgrade\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.pdb
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva - Upgrade\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.UI.FormRecuperarSenha.resources
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.UI.FormRecuperarSenha.resources
+D:\Estudo\Aulas\Modulo ll\DS-ll\CRUD_MVC_Daniel_Saraiva\CRUD_MVC_Daniel_Saraiva\obj\Debug\CRUD_MVC_Daniel_Saraiva.UI.FormAjuda.resources
