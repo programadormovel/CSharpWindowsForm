@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace CRUD_MVC_Daniel_Saraiva.DAL
             try
             {
                 //Chama o método para conectar ao banco de dados.
-                MySqlConnection conn = UtilsDAL.GetConnection();
+                SqlConnection conn = UtilsDAL.GetConnection();
 
                 //Verifica se a conexão esta OK.
                 if (conn.State == System.Data.ConnectionState.Open)
@@ -26,10 +27,10 @@ namespace CRUD_MVC_Daniel_Saraiva.DAL
                                     $" WHERE " +
                                     $"email = '{recuperarSenhaDTO.Email}'";
 
-                    MySqlCommand retorno = new MySqlCommand(sql, conn);
+                    SqlCommand retorno = new SqlCommand(sql, conn);
 
                     //Executa a query.
-                    MySqlDataReader reader = retorno.ExecuteReader();
+                    SqlDataReader reader = retorno.ExecuteReader();
 
                     //Se houver sucesso retorna true
                     if (reader.Read())

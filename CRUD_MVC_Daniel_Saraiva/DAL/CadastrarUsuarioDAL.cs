@@ -3,6 +3,7 @@ using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -33,7 +34,7 @@ namespace CRUD_MVC_Daniel_Saraiva.DAL
                                     $"('{usuario.Nome}', '{usuario.Email}', '{usuario.Senha}', '{nivel}')";
 
                     //O objeto comando possui a conexão e a query a ser executada.
-                    MySqlCommand comando = new MySqlCommand(sql, conn);
+                    SqlCommand comando = new SqlCommand(sql, conn);
 
                     //Excecutamos a inserção de dados.
                     comando.ExecuteNonQuery();

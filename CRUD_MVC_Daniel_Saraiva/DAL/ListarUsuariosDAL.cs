@@ -2,6 +2,7 @@
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -27,7 +28,7 @@ namespace CRUD_MVC_Daniel_Saraiva.DAL
                 {
                     var sql = "SELECT * FROM usuarios";
 
-                    var retorno = new MySqlCommand(sql, conn);
+                    var retorno = new SqlCommand(sql, conn);
 
                     var reader = retorno.ExecuteReader();
 
@@ -70,7 +71,7 @@ namespace CRUD_MVC_Daniel_Saraiva.DAL
                 {
                     var sql = $"SELECT * FROM usuarios WHERE {field} LIKE '%{value}%'";
 
-                    var retorno = new MySqlCommand(sql,conn);
+                    var retorno = new SqlCommand(sql,conn);
 
                     var reader = retorno.ExecuteReader();
 

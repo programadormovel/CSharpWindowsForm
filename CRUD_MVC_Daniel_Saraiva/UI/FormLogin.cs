@@ -86,5 +86,7 @@ namespace CRUD_MVC_Daniel_Saraiva
             FormLogin.Closed += (s, args) => this.Close();
             FormLogin.Show();
         }
-    }
+
+		
+	}
 }

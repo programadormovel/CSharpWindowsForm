@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -84,10 +85,10 @@ namespace CRUD_MVC_Daniel_Saraiva.UI
                     //Variável com a query.
                     string sql = $"SELECT * FROM nivel";
 
-                    MySqlCommand comando = new MySqlCommand(sql, conn);
+                    SqlCommand comando = new SqlCommand(sql, conn);
 
                     //Carrega a DataReader.
-                    MySqlDataReader data = comando.ExecuteReader();
+                    SqlDataReader data = comando.ExecuteReader();
 
                     //Cria uma tabela de dados.
                     DataTable table = new DataTable();
@@ -147,5 +148,10 @@ namespace CRUD_MVC_Daniel_Saraiva.UI
                 txtConfirmarSenha.PasswordChar = '*';
             }
         }
-    }
+
+		private void txtNomeCompleto_TextChanged(object sender, EventArgs e)
+		{
+
+		}
+	}
 }

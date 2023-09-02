@@ -1,6 +1,8 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
+using System.Data.Common;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,19 +12,16 @@ namespace CRUD_MVC_Daniel_Saraiva.DAL
 {
     internal class UtilsDAL
     {
-        public static MySqlConnection GetConnection()
+        public static SqlConnection GetConnection()
         {
             //Objeto builder com as configuração de acesso ao banco de dados.
-            MySqlConnectionStringBuilder builder = new MySqlConnectionStringBuilder
+            SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder
             {
-                Server = "localhost",
-                Database = "cad_usuarios",
-                UserID = "root",
-                Password = ""
-            };
+                ConnectionString = "Server=localhost;Database=cad_usuarios;Trusted_Connection=True;MultipleActiveResultSets=true;Integrated Security=false;User ID=sa;Password=Ad#1an01;Encrypt=False"
+			};
 
             //Criando conexão.
-            MySqlConnection connection = new MySqlConnection(builder.ConnectionString);
+            SqlConnection connection = new SqlConnection(builder.ConnectionString);
             connection.Open();
 
             return connection;
@@ -35,7 +34,7 @@ namespace CRUD_MVC_Daniel_Saraiva.DAL
             try
             {
                 //Cria conexão.
-                MySqlConnection conn = UtilsDAL.GetConnection();
+                SqlConnection conn = UtilsDAL.GetConnection();
 
                 //Verifica se a conexão esta OK.
                 if (conn.State == System.Data.ConnectionState.Open)
@@ -45,10 +44,10 @@ namespace CRUD_MVC_Daniel_Saraiva.DAL
                                     $"WHERE " +
                                     $"{field} =  '{textKey}'";
 
-                    MySqlCommand retorno = new MySqlCommand(sql, conn);
+                    SqlCommand retorno = new SqlCommand(sql, conn);
 
                     //Executa a query.
-                    MySqlDataReader reader = retorno.ExecuteReader();
+                    SqlDataReader reader = retorno.ExecuteReader();
                     if (reader.Read())
                     {
                         return (int)reader[0];

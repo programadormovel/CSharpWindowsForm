@@ -2,6 +2,7 @@
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,7 +22,7 @@ namespace CRUD_MVC_Daniel_Saraiva.DAL
             try
             {
                 //Cria uma conexão.
-                MySqlConnection conn = UtilsDAL.GetConnection();
+                SqlConnection conn = UtilsDAL.GetConnection();
 
                 //Verifica se a conexão esta OK.
                 //Verificamos a propriedade STATE do objeto conn com a propriedade OPEN de ConnectionState.
@@ -33,9 +34,9 @@ namespace CRUD_MVC_Daniel_Saraiva.DAL
                                     $" AND " +
                                     $"senha = '{loginDTO.Senha}'";
 
-                    MySqlCommand retorno = new MySqlCommand(sql, conn);
+                    SqlCommand retorno = new SqlCommand(sql, conn);
                     //Executa a query.
-                    MySqlDataReader reader = retorno.ExecuteReader();
+                    SqlDataReader reader = retorno.ExecuteReader();
                     //Se houver sucesso retorna true
                     if (reader.Read())
                     {

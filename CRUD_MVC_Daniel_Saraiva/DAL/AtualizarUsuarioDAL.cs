@@ -1,6 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -49,7 +50,7 @@ namespace CRUD_MVC_Daniel_Saraiva.DAL
                                             $"nivel = '{nivel}' " +
                                             $" WHERE id_usuario = '{id}'";
 
-                            var comando = new MySqlCommand(sql, conn);
+                            var comando = new SqlCommand(sql, conn);
                             comando.ExecuteNonQuery();      //Usado para update segundo a documentação.
                             conn.Close();
                             return 1;                       //Usuário alterado com sucesso.

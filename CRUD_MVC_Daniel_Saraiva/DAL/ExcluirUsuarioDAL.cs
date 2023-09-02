@@ -1,6 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -37,7 +38,7 @@ namespace CRUD_MVC_Daniel_Saraiva.DAL
                         {
                             //A exclusão é feita por padrão usando o id do usuário no banco de dados.
                             var sql = $"DELETE FROM usuarios WHERE id_usuario = '{id}'";
-                            var comando = new MySqlCommand(sql, conn);
+                            var comando = new SqlCommand(sql, conn);
                             comando.ExecuteNonQuery();          //Usado para deletar.
                             conn.Close();
                             return 1;                           //Usuário excluido com sucesso.
