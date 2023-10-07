@@ -73,16 +73,6 @@ namespace CRUD_MVC_Daniel_Saraiva.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Logo_Malit__Sem_Fundo {
-            get {
-                object obj = ResourceManager.GetObject("Logo_Malit_-Sem Fundo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap roberto_sorin_RS0_h_pyByk_unsplash {
             get {
                 object obj = ResourceManager.GetObject("roberto-sorin-RS0-h_pyByk-unsplash", resourceCulture);
